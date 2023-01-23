@@ -17,6 +17,10 @@ models:
       - name: estimated_delivery_at_utc
       - name: delivered_at_utc
       - name: status
+        description: accepted values = shipped, delivered, preparing
+        tests:
+          - accepted_values:
+              values: ['shipped', 'delivered','preparing']
 
   - name: stg_postgres_order_items
     description: Items in a particular order info
