@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: fct_user_sessions
+    description: combines user details with aggregated event types per session/user
+    columns:
+      - name: user_guid
+        tests:
+          - not_null
+          - unique
+      - name: session_guid
+        tests:
+          - not_null
+          - unique
