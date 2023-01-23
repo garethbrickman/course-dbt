@@ -4,6 +4,8 @@ What is our user repeat rate? (Repeat Rate = Users who purchased 2 or more times
 
 Paste in an image of your DAG from the docs
 
+(see DAG.png)
+
 Which orders changed from week 1 to week 2?
 
 Order IDs: 
