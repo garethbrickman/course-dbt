@@ -7,4 +7,6 @@ macros:
     description: check if numeric values in column are +ve 
   - name: make_event_types_with_counts
     description: creates count case when statements for each event type
+  - name: grant
+    description: applies grant to model
 
