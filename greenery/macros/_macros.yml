@@ -1,0 +1,8 @@
+version: 2
+
+macros:
+  - name: lbs_to_kgs
+    description: convert lbs to kgs
+  - name: positive_values
+    description: check if numeric values in column are +ve 
+
