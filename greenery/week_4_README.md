@@ -1,11 +1,13 @@
 #Part 1
 
-Which orders changed from week 3 to week 4 (dbt snapshot)? 
+Which orders changed from week 3 to week 4 (dbt snapshot)? m
 
 Order IDs:
 0e9b8ee9-ad0a-42f4-a778-e1dd3e6f6c51
 841074bf-571a-43a6-963c-ba7cbdb26c85
 df91aa85-bfc7-4c31-93ef-4cee8d00a343
+
+(see sigma_week_4_explo.png)
 
 #Part 2
 
@@ -13,6 +15,8 @@ How are our users moving through the product funnel? Which steps in the funnel h
 - Page view to Cart has a 47.3% dropoff rate 
 vs
 - Cart to Checkout has a 63.4% dropoff rate
+
+(see sigma_week_4_explo_2.png)
 
 #Part 3
 
